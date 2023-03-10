@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Rubik+Mono+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9B5B7D;
+}
+
+main {
+    position: relative;
+}
+
+.content-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.content-middle .content-middle-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.content-middle .content-middle-top .day {
+    font-family: "Rubik Mono One", "sans-serif";
+    word-spacing: -10px;
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+.content-middle .content-middle-top .celebration {
+    font-family: "Poppins", "sans-serif";
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.content-middle .content-middle-middle {
+    font-family: "Rubik Mono One", "sans-serif";
+    font-size: 6em;
+    line-height: 0.8em;
+    position: relative;
+}
+
+.content-middle .content-middle-middle img {
+    opacity: 0.15;
+    position: absolute;
+    top: -0.8em;
+    right: -2.5em;
+    width: 5em;
+    z-index: 0;
+}
+
+.content-middle .content-middle-middle .word-01 {
+    opacity: 1;
+    position: relative;
+    z-index: 999; 
+}
+
+.content-middle .content-middle-middle .word-02 {
+    opacity: 0.65; 
+    position: relative;
+    z-index: 999; 
+}
+
+.content-middle .content-middle-middle .word-03 {
+    opacity: 0.40;
+    position: relative;
+    z-index: 999; 
+}
+
+.content-middle .content-middle-middle .word-04 {
+    opacity: 0.15; 
+    position: relative;  
+    z-index: 999; 
+}
+
+.content-middle .content-middle-bottom {
+    margin-top: 1em;
+    font-family: "Poppins", "sans-serif";
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.content-middle .content-middle-bottom .white-text {
+    color: #FFF;
+}
+
+.footer-woman {
+    display: flex;
+    flex: row;
+    position: fixed;
+    bottom: -30px;
+}
+
+.footer-woman img {
+    width: 10%;
+}
